@@ -3,16 +3,18 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 export const metadata = {
-  title: "Ziaul Hasan | Portfolio",
-  description: "My personal portfolio built with Next.js",
+  title: "Munifa Aktar | Portfolio",
+  description: "Professional Portfolio - Showcasing My Work and Experience",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="max-w-4xl mx-auto px-5">
+      <body className="min-h-screen">
         <Header />
-        {children}
+        <main>
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
