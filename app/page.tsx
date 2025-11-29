@@ -11,11 +11,11 @@ export default function HomePage() {
     <>
       <Hero />
       <ExpertiseSection />
-      <About />
+      {/* <About />
       <Skills />
       <Experience />
       <Projects />
-      <Contact />
+      <Contact /> */}
     </>
   );
 }
