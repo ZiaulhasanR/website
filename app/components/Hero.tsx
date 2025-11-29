@@ -83,7 +83,7 @@ export default function Hero() {
         </div>
 
         {/* Right Side - Content */}
-        <div className="text-white">
+        <div className="text-white text-center md:text-left">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
             Digital Marketing
           </h1>
