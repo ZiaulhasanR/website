@@ -10,7 +10,8 @@ export default function ExpertiseSection() {
             Why Choose Us
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Combining expertise with results-driven strategies to elevate your brand
+            Combining expertise with results-driven strategies to elevate your
+            brand
           </p>
         </div>
 
@@ -20,7 +21,7 @@ export default function ExpertiseSection() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="order-2 md:order-1">
               <img
-                src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=800&q=80"
+                src="/seo1.jpg"
                 alt="SEO Browser Window"
                 className="w-full h-80 object-cover rounded-2xl shadow-2xl"
               />
@@ -30,7 +31,8 @@ export default function ExpertiseSection() {
                 Passionate Expertise
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed">
-                With over three years of experience, we bring passion and dedication to help brands achieve their online marketing goals.
+                With over three years of experience, we bring passion and
+                dedication to help brands achieve their online marketing goals.
               </p>
             </div>
           </div>
@@ -42,12 +44,14 @@ export default function ExpertiseSection() {
                 Results-Driven Approach
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed">
-                Our strategies are built on data and insights, ensuring that every campaign is tailored to deliver tangible results for your business.
+                Our strategies are built on data and insights, ensuring that
+                every campaign is tailored to deliver tangible results for your
+                business.
               </p>
             </div>
             <div>
               <img
-                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80"
+                src="/seo2.jpg"
                 alt="SEO Analytics"
                 className="w-full h-80 object-cover rounded-2xl shadow-2xl"
               />
