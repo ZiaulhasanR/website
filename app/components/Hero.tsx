@@ -36,13 +36,13 @@ export default function Hero() {
               </p>
 
               <div className="flex items-center justify-center mb-6">
-                <div className="w-40 h-28 rounded-full border-8 border-white overflow-hidden shadow-xl">
+                {/* <div className="w-40 h-28 rounded-full border-8 border-white overflow-hidden shadow-xl">
                   <img
                     src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80"
                     alt="Munifa Aktar"
                     className="w-full h-full object-cover"
                   />
-                </div>
+                </div> */}
               </div>
 
               <div className="text-center space-y-3">
