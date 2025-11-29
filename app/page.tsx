@@ -1,5 +1,7 @@
 import Hero from "./components/Hero";
 import ExpertiseSection from "./components/ExpertiesSection";
+import ServicesSection from "./components/ServicesSection";
+import BlogInsightsSection from "./components/BlogInsightsSection";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
@@ -11,6 +13,8 @@ export default function HomePage() {
     <>
       <Hero />
       <ExpertiseSection />
+      <ServicesSection />
+      <BlogInsightsSection />
       {/* <About />
       <Skills />
       <Experience />
