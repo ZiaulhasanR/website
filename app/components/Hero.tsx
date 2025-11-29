@@ -89,7 +89,7 @@ export default function Hero() {
         </div>
 
         {/* Right Side - Content */}
-        <div className="text-white">
+        <div className="text-white lg:text-left text-center">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
             Digital Marketing
           </h1>
@@ -98,8 +98,12 @@ export default function Hero() {
             Expert in SEO, Lead Generation, and Social Media, Email Marketing
           </p>
 
-          <button onClick={() => window.location.href = 'https://www.facebook.com/munifa.akter.7'
-          } className="px-10 py-4 bg-lime-400 text-gray-900 rounded-full font-bold text-lg hover:bg-lime-300 hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
+          <button
+            onClick={() =>
+              (window.location.href = "https://www.facebook.com/munifa.akter.7")
+            }
+            className="px-10 py-4 bg-lime-400 text-gray-900 rounded-full font-bold text-lg hover:bg-lime-300 hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
+          >
             Contact Us
           </button>
         </div>
