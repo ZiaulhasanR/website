@@ -94,7 +94,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-8 leading-relaxed">
-            Expert in SEO, Lead Generation, and Social Media, Email Marketing
+            Expert in Social Media Ads, SEO, Lead Generation, and Email Marketing
           </p>
 
           <button

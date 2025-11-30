@@ -4,21 +4,21 @@ export default function ServicesSection() {
   const services = [
     {
       id: 1,
+      title: "Social Media Ads",
+      description: "Our social media ads service helps you reach your target audience across platforms like Facebook, Instagram, and others. We design high-converting creatives, write compelling ad copy, and manage optimized campaigns that boost brand visibility, drive engagement, and increase conversions.",
+      buttonText: "Start Social Ads",
+      buttonColor: "bg-lime-500 hover:bg-lime-600",
+      image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&q=80",
+      imageAlt: "Social Media Ads"
+    },
+    {
+      id: 2,
       title: "Lead Generation Strategies",
       description: "We implement innovative lead generation strategies to capture and nurture potential customers. By utilizing targeted marketing techniques and compelling calls to action, we help you convert leads into loyal customers who engage with your brand.",
       buttonText: "Boost Leads",
       buttonColor: "bg-lime-500 hover:bg-lime-600",
       image: "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=600&q=80",
       imageAlt: "Lead Generation Marketing"
-    },
-    {
-      id: 2,
-      title: "Social Media Marketing",
-      description: "Our social media marketing services leverage platforms like Facebook and Instagram to reach your target audience. We create engaging content and run effective ad campaigns that not only increase brand awareness but also drive user engagement and conversions.",
-      buttonText: "Start Social Ads",
-      buttonColor: "bg-lime-500 hover:bg-lime-600",
-      image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&q=80",
-      imageAlt: "Social Media Marketing"
     },
     {
       id: 3,
