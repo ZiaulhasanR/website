@@ -9,7 +9,8 @@ export default function Experience() {
         "Led redesign of flagship product",
         "Improved user engagement by 40%",
         "Managed team of 5 designers"
-      ]
+      ],
+      certificate: "/certificates/certificate.pdf" // Add your certificate PDF here
     },
     {
       title: "UI/UX Designer",
@@ -83,6 +84,19 @@ export default function Experience() {
                           </li>
                         ))}
                       </ul>
+                      {exp.certificate && (
+                        <a
+                          href={exp.certificate}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mt-6 inline-flex items-center gap-2 px-5 py-2.5 gradient-bg text-white rounded-lg hover:shadow-lg transition-all duration-300 font-medium"
+                        >
+                          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                          </svg>
+                          View Certificate
+                        </a>
+                      )}
                     </div>
                   ) : null}
                 </div>
@@ -115,6 +129,19 @@ export default function Experience() {
                           </li>
                         ))}
                       </ul>
+                      {exp.certificate && (
+                        <a
+                          href={exp.certificate}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mt-6 inline-flex items-center gap-2 px-5 py-2.5 gradient-bg text-white rounded-lg hover:shadow-lg transition-all duration-300 font-medium"
+                        >
+                          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                          </svg>
+                          View Certificate
+                        </a>
+                      )}
                     </div>
                   ) : null}
                 </div>
