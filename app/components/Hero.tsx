@@ -29,7 +29,7 @@ export default function Hero() {
               </h2>
               <h3 className="text-3xl font-bold text-gray-900 mb-6">Expert</h3>
 
-              <p className="text-blue-700 font-medium mb-6 leading-relaxed">
+              <p className="text-white font-medium mb-6 leading-relaxed">
                 The best and most professional service to help improve your
                 business performance so that your income will increase more than
                 before
