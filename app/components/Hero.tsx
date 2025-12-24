@@ -1,6 +1,6 @@
 "use client";
 
-import { isHmrRefresh } from "next/dist/server/app-render/work-unit-async-storage.external";
+import { SiFiverr } from "react-icons/si";
 
 export default function Hero() {
   return (
@@ -46,6 +46,17 @@ export default function Hero() {
               </div>
 
               <div className="text-center space-y-3">
+                {/* Fiverr Link */}
+                <a
+                  href="https://www.fiverr.com/munifaa1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-3 bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+                >
+                  <SiFiverr className="w-6 h-6" />
+                  <span>View Fiverr Profile</span>
+                </a>
+
                 <div className="flex items-center justify-center gap-2">
                   <svg
                     className="w-5 h-5 text-blue-600"
